@@ -1,0 +1,23 @@
+body{
+    background:linear-gradient(130deg, rgb(113, 197, 183),purple 80%);
+    height:100vh
+}
+.Frosted-Pane{
+    width:300px;
+    height:300px;
+    background-color: rgba(255,255,255,.3);
+    margin: auto;
+    border-radius: 30px;
+    position: relative;
+}
+.Black-Part{
+    width:80%;
+    height:80%;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    opacity: 1;
+}
