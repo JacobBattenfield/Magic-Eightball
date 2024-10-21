@@ -1,14 +1,17 @@
 body{
     background:linear-gradient(130deg, rgb(113, 197, 183),purple 80%);
-    height:100vh
+    height:100vh;
+    overflow: hidden;
 }
 .Frosted-Pane{
-    width:300px;
-    height:300px;
+    margin: 200px auto;
+    width:30vw;
+    height:30vw;
     background-color: rgba(255,255,255,.3);
-    margin: auto;
     border-radius: 30px;
     position: relative;
+    min-width: 400px;
+    min-height: 400px;
 }
 .Black-Part{
     width:80%;
@@ -20,4 +23,15 @@ body{
     transform: translate(-50%,-50%);
     border-radius: 50%;
     opacity: 1;
+}
+.Ring-Part{
+    width:40%;
+    height:40%;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    opacity: 1;
+    border: 1px solid white;
 }
